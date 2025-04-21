@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CharMcQueen" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/my_light_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_screen_icon</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenAPI</item>
+    </style>
+</resources>
